@@ -1,7 +1,3 @@
-A small script I made to generate strong passwords.
+A small script to play rock paper scissors on the CLI
 
-Part of a recommended python project website I read.
-
-Issues are that it is possible (although statistcally unlikely) for there to be no symbols/letters/numbers in the password.
-
-Perhaps in the future would be able to input some sort of articficial randomness
+In the future might be able to make a GUI to make it more interactive
