@@ -12,11 +12,15 @@ def menu():
 
 def game():
     choices = ["rock", "paper", "scissors"]
-    inputs = {"rock": "scissors", "paper": "rock", "scissors": "paper"}
+    inputs = {"rock": "scissors", 
+              "paper": "rock", 
+              "scissors": "paper"
+             }
+
     while True:
         computer_choice = choices[randint(0, 2)]
         user_choice = str(
-            input("select rock, paper or scissors (quit to stop game): ")
+            input("select rock, paper or scissors (type quit to stop game): ")
         ).lower()
         if user_choice == "quit":
             return
